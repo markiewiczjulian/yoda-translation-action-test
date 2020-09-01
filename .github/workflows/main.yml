@@ -1,0 +1,27 @@
+name: Yoda translation
+
+on:
+  pull_request_review_comment:
+    types: [created, edited]
+  issue_comment:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        name: Use Node.js 12.X
+      - run: npm install
+      - uses: markiewiczjulian/yoda-translation-action@master
+        name: use yoda-translation-action
+        with:
+          githubAccessToken: ${{secrets.GIT_ACCESS_TOKEN}}
+          translationApiToken: ${{secrets.TRANSLATION_API_TOKEN}}
+      - uses: actions/setup-node@v1
+        name: use actions/setup-node
+        with:
+          node-version: "12.X"
+        env:
+          CI: true

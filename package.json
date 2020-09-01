@@ -1,0 +1,23 @@
+{
+  "name": "yoda-translation-action-test",
+  "version": "1.0.0",
+  "description": "test repo for yoda-translation-action action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markiewiczjulian/yoda-translation-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markiewiczjulian/yoda-translation-action-test/issues"
+  },
+  "homepage": "https://github.com/markiewiczjulian/yoda-translation-action-test#readme",
+  "dependencies": {
+    "@actions/github": "^4.0.0",
+    "express": "^4.17.1"
+  }
+}
