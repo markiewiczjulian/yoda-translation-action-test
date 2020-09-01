@@ -1,5 +1,5 @@
 ## About
-This is a simple node.js app which uses the custom action from yoda-translation-action [repository](https://github.com/markiewiczjulian/yoda-translation-action). For more information on how it works, see yoda-translation-action repository.
+This is a simple node.js app which uses the custom action from a yoda-translation-action [repository](https://github.com/markiewiczjulian/yoda-translation-action). For more information on how it works, see yoda-translation-action repository.
 
 ### MIT License
 
